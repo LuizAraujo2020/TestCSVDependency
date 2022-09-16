@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F4B917628D52EFC00BCC657 /* TestCSVDependencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B917528D52EFC00BCC657 /* TestCSVDependencyApp.swift */; };
+		6F4B917828D52EFC00BCC657 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B917728D52EFC00BCC657 /* ContentView.swift */; };
+		6F4B917A28D52EFE00BCC657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4B917928D52EFE00BCC657 /* Assets.xcassets */; };
+		6F4B917D28D52EFE00BCC657 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4B917C28D52EFE00BCC657 /* Preview Assets.xcassets */; };
+		6F4B917F28D52EFE00BCC657 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B917E28D52EFE00BCC657 /* Persistence.swift */; };
+		6F4B918228D52EFE00BCC657 /* TestCSVDependency.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B918028D52EFE00BCC657 /* TestCSVDependency.xcdatamodeld */; };
+		6F4B918D28D52EFE00BCC657 /* TestCSVDependencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B918C28D52EFE00BCC657 /* TestCSVDependencyTests.swift */; };
+		6F4B919728D52EFE00BCC657 /* TestCSVDependencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B919628D52EFE00BCC657 /* TestCSVDependencyUITests.swift */; };
+		6F4B919928D52EFE00BCC657 /* TestCSVDependencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B919828D52EFE00BCC657 /* TestCSVDependencyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F4B918928D52EFE00BCC657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F4B916A28D52EFC00BCC657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4B917128D52EFC00BCC657;
+			remoteInfo = TestCSVDependency;
+		};
+		6F4B919328D52EFE00BCC657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F4B916A28D52EFC00BCC657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4B917128D52EFC00BCC657;
+			remoteInfo = TestCSVDependency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F4B917228D52EFC00BCC657 /* TestCSVDependency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCSVDependency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4B917528D52EFC00BCC657 /* TestCSVDependencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCSVDependencyApp.swift; sourceTree = "<group>"; };
+		6F4B917728D52EFC00BCC657 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F4B917928D52EFE00BCC657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F4B917C28D52EFE00BCC657 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F4B917E28D52EFE00BCC657 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6F4B918128D52EFE00BCC657 /* TestCSVDependency.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestCSVDependency.xcdatamodel; sourceTree = "<group>"; };
+		6F4B918328D52EFE00BCC657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4B918828D52EFE00BCC657 /* TestCSVDependencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCSVDependencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4B918C28D52EFE00BCC657 /* TestCSVDependencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCSVDependencyTests.swift; sourceTree = "<group>"; };
+		6F4B919228D52EFE00BCC657 /* TestCSVDependencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCSVDependencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4B919628D52EFE00BCC657 /* TestCSVDependencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCSVDependencyUITests.swift; sourceTree = "<group>"; };
+		6F4B919828D52EFE00BCC657 /* TestCSVDependencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCSVDependencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F4B916F28D52EFC00BCC657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4B918528D52EFE00BCC657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4B918F28D52EFE00BCC657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F4B916928D52EFC00BCC657 = {
+			isa = PBXGroup;
+			children = (
+				6F4B917428D52EFC00BCC657 /* TestCSVDependency */,
+				6F4B918B28D52EFE00BCC657 /* TestCSVDependencyTests */,
+				6F4B919528D52EFE00BCC657 /* TestCSVDependencyUITests */,
+				6F4B917328D52EFC00BCC657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F4B917328D52EFC00BCC657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B917228D52EFC00BCC657 /* TestCSVDependency.app */,
+				6F4B918828D52EFE00BCC657 /* TestCSVDependencyTests.xctest */,
+				6F4B919228D52EFE00BCC657 /* TestCSVDependencyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F4B917428D52EFC00BCC657 /* TestCSVDependency */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B917528D52EFC00BCC657 /* TestCSVDependencyApp.swift */,
+				6F4B917728D52EFC00BCC657 /* ContentView.swift */,
+				6F4B917928D52EFE00BCC657 /* Assets.xcassets */,
+				6F4B917E28D52EFE00BCC657 /* Persistence.swift */,
+				6F4B918328D52EFE00BCC657 /* Info.plist */,
+				6F4B918028D52EFE00BCC657 /* TestCSVDependency.xcdatamodeld */,
+				6F4B917B28D52EFE00BCC657 /* Preview Content */,
+			);
+			path = TestCSVDependency;
+			sourceTree = "<group>";
+		};
+		6F4B917B28D52EFE00BCC657 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B917C28D52EFE00BCC657 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F4B918B28D52EFE00BCC657 /* TestCSVDependencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B918C28D52EFE00BCC657 /* TestCSVDependencyTests.swift */,
+			);
+			path = TestCSVDependencyTests;
+			sourceTree = "<group>";
+		};
+		6F4B919528D52EFE00BCC657 /* TestCSVDependencyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B919628D52EFE00BCC657 /* TestCSVDependencyUITests.swift */,
+				6F4B919828D52EFE00BCC657 /* TestCSVDependencyUITestsLaunchTests.swift */,
+			);
+			path = TestCSVDependencyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F4B917128D52EFC00BCC657 /* TestCSVDependency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4B919C28D52EFE00BCC657 /* Build configuration list for PBXNativeTarget "TestCSVDependency" */;
+			buildPhases = (
+				6F4B916E28D52EFC00BCC657 /* Sources */,
+				6F4B916F28D52EFC00BCC657 /* Frameworks */,
+				6F4B917028D52EFC00BCC657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCSVDependency;
+			productName = TestCSVDependency;
+			productReference = 6F4B917228D52EFC00BCC657 /* TestCSVDependency.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F4B918728D52EFE00BCC657 /* TestCSVDependencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4B919F28D52EFE00BCC657 /* Build configuration list for PBXNativeTarget "TestCSVDependencyTests" */;
+			buildPhases = (
+				6F4B918428D52EFE00BCC657 /* Sources */,
+				6F4B918528D52EFE00BCC657 /* Frameworks */,
+				6F4B918628D52EFE00BCC657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F4B918A28D52EFE00BCC657 /* PBXTargetDependency */,
+			);
+			name = TestCSVDependencyTests;
+			productName = TestCSVDependencyTests;
+			productReference = 6F4B918828D52EFE00BCC657 /* TestCSVDependencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F4B919128D52EFE00BCC657 /* TestCSVDependencyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4B91A228D52EFE00BCC657 /* Build configuration list for PBXNativeTarget "TestCSVDependencyUITests" */;
+			buildPhases = (
+				6F4B918E28D52EFE00BCC657 /* Sources */,
+				6F4B918F28D52EFE00BCC657 /* Frameworks */,
+				6F4B919028D52EFE00BCC657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F4B919428D52EFE00BCC657 /* PBXTargetDependency */,
+			);
+			name = TestCSVDependencyUITests;
+			productName = TestCSVDependencyUITests;
+			productReference = 6F4B919228D52EFE00BCC657 /* TestCSVDependencyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F4B916A28D52EFC00BCC657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6F4B917128D52EFC00BCC657 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					6F4B918728D52EFE00BCC657 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6F4B917128D52EFC00BCC657;
+					};
+					6F4B919128D52EFE00BCC657 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6F4B917128D52EFC00BCC657;
+					};
+				};
+			};
+			buildConfigurationList = 6F4B916D28D52EFC00BCC657 /* Build configuration list for PBXProject "TestCSVDependency" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F4B916928D52EFC00BCC657;
+			productRefGroup = 6F4B917328D52EFC00BCC657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F4B917128D52EFC00BCC657 /* TestCSVDependency */,
+				6F4B918728D52EFE00BCC657 /* TestCSVDependencyTests */,
+				6F4B919128D52EFE00BCC657 /* TestCSVDependencyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F4B917028D52EFC00BCC657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4B917D28D52EFE00BCC657 /* Preview Assets.xcassets in Resources */,
+				6F4B917A28D52EFE00BCC657 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4B918628D52EFE00BCC657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4B919028D52EFE00BCC657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F4B916E28D52EFC00BCC657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4B917F28D52EFE00BCC657 /* Persistence.swift in Sources */,
+				6F4B918228D52EFE00BCC657 /* TestCSVDependency.xcdatamodeld in Sources */,
+				6F4B917828D52EFC00BCC657 /* ContentView.swift in Sources */,
+				6F4B917628D52EFC00BCC657 /* TestCSVDependencyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4B918428D52EFE00BCC657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4B918D28D52EFE00BCC657 /* TestCSVDependencyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4B918E28D52EFE00BCC657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4B919928D52EFE00BCC657 /* TestCSVDependencyUITestsLaunchTests.swift in Sources */,
+				6F4B919728D52EFE00BCC657 /* TestCSVDependencyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F4B918A28D52EFE00BCC657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F4B917128D52EFC00BCC657 /* TestCSVDependency */;
+			targetProxy = 6F4B918928D52EFE00BCC657 /* PBXContainerItemProxy */;
+		};
+		6F4B919428D52EFE00BCC657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F4B917128D52EFC00BCC657 /* TestCSVDependency */;
+			targetProxy = 6F4B919328D52EFE00BCC657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F4B919A28D52EFE00BCC657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F4B919B28D52EFE00BCC657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F4B919D28D52EFE00BCC657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestCSVDependency/Preview Content\"";
+				DEVELOPMENT_TEAM = K328B98U3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.macro2022.TestCSVDependency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F4B919E28D52EFE00BCC657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestCSVDependency/Preview Content\"";
+				DEVELOPMENT_TEAM = K328B98U3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.macro2022.TestCSVDependency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F4B91A028D52EFE00BCC657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K328B98U3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.macro2022.TestCSVDependencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestCSVDependency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestCSVDependency";
+			};
+			name = Debug;
+		};
+		6F4B91A128D52EFE00BCC657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K328B98U3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.macro2022.TestCSVDependencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestCSVDependency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestCSVDependency";
+			};
+			name = Release;
+		};
+		6F4B91A328D52EFE00BCC657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K328B98U3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.macro2022.TestCSVDependencyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestCSVDependency;
+			};
+			name = Debug;
+		};
+		6F4B91A428D52EFE00BCC657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K328B98U3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.macro2022.TestCSVDependencyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestCSVDependency;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F4B916D28D52EFC00BCC657 /* Build configuration list for PBXProject "TestCSVDependency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4B919A28D52EFE00BCC657 /* Debug */,
+				6F4B919B28D52EFE00BCC657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4B919C28D52EFE00BCC657 /* Build configuration list for PBXNativeTarget "TestCSVDependency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4B919D28D52EFE00BCC657 /* Debug */,
+				6F4B919E28D52EFE00BCC657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4B919F28D52EFE00BCC657 /* Build configuration list for PBXNativeTarget "TestCSVDependencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4B91A028D52EFE00BCC657 /* Debug */,
+				6F4B91A128D52EFE00BCC657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4B91A228D52EFE00BCC657 /* Build configuration list for PBXNativeTarget "TestCSVDependencyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4B91A328D52EFE00BCC657 /* Debug */,
+				6F4B91A428D52EFE00BCC657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F4B918028D52EFE00BCC657 /* TestCSVDependency.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F4B918128D52EFE00BCC657 /* TestCSVDependency.xcdatamodel */,
+			);
+			currentVersion = 6F4B918128D52EFE00BCC657 /* TestCSVDependency.xcdatamodel */;
+			path = TestCSVDependency.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F4B916A28D52EFC00BCC657 /* Project object */;
+}
